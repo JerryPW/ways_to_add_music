@@ -2,9 +2,9 @@ Adding background music is a common requirement when you are coding in the proje
 Here i will provide one ways to implement this requirment.
 
 First, you need to include this three files:
-#include<windows.h>
+```#include<windows.h>
 #include<Mmsystem.h>
-#pragma comment(lib,"winmm.lib")
+#pragma comment(lib,"winmm.lib")```
 
 then, to open the music, you need to put the music under your project's catalog
 use this line of code to open the file (you always need to open when you dealing with file): mciSendString("open gameMusic.mp3 alias music",NULL,0,NULL);
