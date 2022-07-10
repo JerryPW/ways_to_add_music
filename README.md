@@ -6,8 +6,11 @@ I will list the codes you need in here:
 ```#include<windows.h>
 #include<Mmsystem.h>
 #pragma comment(lib,"winmm.lib")```
+
 open the file:
 ```mciSendString("open gameMusic.mp3 alias music",NULL,0,NULL);```
+
+
 play and turn off the music:
 ```mciSendString("play music repeat",NULL,0,NULL);
 mciSendString("close music",NULL,0,NULL);```
