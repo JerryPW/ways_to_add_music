@@ -1,5 +1,5 @@
 Adding background music is a common requirement when you are coding in the project
-Here i will provide one ways to implement this requirment.
+Here i will provide one ways to implement this requirement.
 
 First, you need to include this three files:
 #include<windows.h>
