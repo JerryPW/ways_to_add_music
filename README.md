@@ -16,3 +16,5 @@ play and turn off the music:
     mciSendString("close music",NULL,0,NULL);```
 
 Hello, here i make some changes, and i will fix it soon!
+
+just for tested
