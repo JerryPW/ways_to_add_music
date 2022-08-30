@@ -14,7 +14,3 @@ open the file:
 play and turn off the music:
     ```mciSendString("play music repeat",NULL,0,NULL);
     mciSendString("close music",NULL,0,NULL);```
-
-Hello, here i make some changes, and i will fix it soon!
-
-just for tested
