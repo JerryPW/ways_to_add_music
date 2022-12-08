@@ -1,5 +1,4 @@
-# Jerry
-Ways to add music in c++ codes
+# Ways to add music in c++ codes
 
 I will list the codes you need in here:
 3 files to include
